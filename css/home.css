@@ -1,0 +1,72 @@
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #93E1FF;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+}
+
+header img {
+    width: 70px;
+}
+
+header .title-company {
+    margin-left: 10px;
+}
+
+.name-title {
+    font-size: 14px;
+    color: #329BD7;
+}
+
+.name-boby {
+    font-size: 21px;
+    color: #F10223;
+}
+
+.dayOfWeek {
+    width: 180px;
+    height: 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8fc6db;
+    margin-left: 70px;
+    border-radius: 5px;
+}
+
+.dayOfWeek i {
+    color: #7a7575;
+}
+
+.weather {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+    width: 250px;
+    height: 30px;
+    background-color: #FFFFFF;
+}
+
+.weather .province {
+    color: #009ED9;
+    font-size: 15px;
+}
+
+.weather .the-sun {
+    color: #d3d61f;
+}
