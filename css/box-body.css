@@ -117,8 +117,9 @@
 }
 
 .lable-calendar {
-    width: 125px;
+    width: 175px;
     padding-left: 10px;
+    position: relative;
     height: 40px;
     background: linear-gradient(to right, #ffd7bb, #f9fdff);
     display: flex;
@@ -127,8 +128,33 @@
     color: #ea9e57;
 }
 
+.lable-calendar .border-r-dimond {
+    width: 1px;
+    background-color: #ea9e57;
+}
+
+.lable-calendar .border-r-dimond .squarexx {
+    border: 1px solid #ea9e57;
+}
+
+.lable-calendar .square-mews-grooup-f {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #D96C00;
+}
+
+.lable-calendar .square-mews-grooup-f .square-mews-grooup-c {
+    background-color: #FFD8BC;
+    border: 1px solid #D96C00;
+}
+
 .calendar-icon {
     margin-right: 25px;
+}
+
+.marding-x .news-hot-right {
+    border: 1px solid #ea9e57;
 }
 
 .calendar-detail {
@@ -405,20 +431,17 @@
 .box-media a {
     border-right: 1px solid;
     position: relative;
+    height: 256px;
+    border-bottom: 1px solid;
 }
 
 .box-media a .triangles {
-    top: -35%;
+    top: -36%;
 }
 
 .box-media img {
     width: 277px;
-    height: 184px;
-}
-
-.border-x {
-    height: 256px;
-    border-bottom: 1px solid;
+    height: 200px;
 }
 
 .margin-y {
@@ -465,7 +488,7 @@
 }
 
 .border-r-dimond {
-    width: 2px;
+    width: 1px;
     height: 17px;
     background-color: #89DFFF;
     position: absolute;
@@ -542,7 +565,7 @@
 /* Style executive */
 .executive {
     width: 100%;
-    height: 570px;
+    height: 520px;
     background-image: url("/image/bg-executive.png");
     background-color: #D6F3FF;
     padding-top: 50px;

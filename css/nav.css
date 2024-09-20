@@ -3,8 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
     border-bottom: 1px solid #EEEEEE;
+    height: 50px;
 }
 
 .nav {
@@ -13,19 +13,18 @@
     justify-content: space-between;
 }
 
-.sider-bar a {
+.sider-bar li {
+    list-style: none;
+}
 
+.sider-bar a {
+    padding-bottom: 16px;
     text-decoration: none;
     color: black;
 }
 
 .sider-bar .icon-home {
     color: #009ED9;
-}
-
-li {
-    font-size: 15px;
-    display: flex;
 }
 
 li :hover {
