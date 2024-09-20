@@ -1,0 +1,33 @@
+.sider-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.nav {
+    width: 1200.49px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sider-bar a {
+
+    text-decoration: none;
+    color: black;
+}
+
+.sider-bar .icon-home {
+    color: #009ED9;
+}
+
+li {
+    font-size: 15px;
+    display: flex;
+}
+
+li :hover {
+    border-bottom: 2px solid #009ED9;
+}

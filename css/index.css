@@ -1,0 +1,115 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+ }
+
+ header {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     height: 100px;
+     align-items: center;
+     border-bottom: 1px solid #009ED9;
+     background-image: url("/image/banerx.png");
+     background-color: #97defa;
+ }
+
+ .infor-quangnam {
+     width: 1200.49px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .img-and-quochuy {
+     display: flex;
+     align-items: center;
+ }
+
+ .infor-detail {
+     display: flex;
+ }
+
+
+ .container {
+     width: 1200.49px;
+     height: auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ header img {
+     width: 88px;
+     height: 89px;
+
+ }
+
+
+ header .title-company {
+     margin-left: 10px;
+ }
+
+ .name-title {
+     font-size: 20px;
+     color: #0680C9;
+     text-transform: uppercase;
+     font-family: 'Manuale', serif;
+     font-weight: bold;
+ }
+
+ .name-boby {
+     font-size: 29px;
+     color: #F10223;
+     font-weight: bold;
+ }
+
+ .dayOfWeek {
+     width: 180px;
+     height: 30px;
+     background-color: #FFFFFF;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border: 1px solid #8fc6db;
+     margin-left: 70px;
+     border-radius: 5px;
+ }
+
+ .dayOfWeek i {
+     color: #7a7575;
+ }
+
+ .weather {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     margin-left: 10px;
+     width: 250px;
+     height: 30px;
+     background-color: #FFFFFF;
+     border-radius: 5px;
+     border: 1px solid #9BD9FF;
+ }
+
+ .weather .province {
+     color: #009ED9;
+     font-size: 15px;
+ }
+
+ .weather .the-sun {
+     color: #d3d61f;
+ }
+
+ .menu i {
+     width: 30px;
+     height: 30px;
+     margin-left: 10px;
+     font-size: 15;
+     border: 1px solid #8fc6db;
+     background-color: #FFFFFF;
+     border-radius: 3px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
