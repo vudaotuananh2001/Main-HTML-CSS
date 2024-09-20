@@ -25,13 +25,8 @@
 }
 
 .offset-square {
-<<<<<<< HEAD
     width: 6px;
     height: 6px;
-=======
-    width: 7px;
-    height: 7px;
->>>>>>> 862abef5bf4aaab5bb2f3b9e1f2fd34d39b09eba
     background-color: white;
     position: absolute;
     right: 0;
@@ -108,10 +103,6 @@
 .news-hot-right {
     width: 300px;
     height: auto;
-<<<<<<< HEAD
-=======
-    border: 1px solid #FFE3CD;
->>>>>>> 862abef5bf4aaab5bb2f3b9e1f2fd34d39b09eba
 }
 
 .calendar {
@@ -364,10 +355,6 @@
 
 .video-media a {
     color: white;
-<<<<<<< HEAD
-=======
-    padding-right: 10px;
->>>>>>> 862abef5bf4aaab5bb2f3b9e1f2fd34d39b09eba
 }
 
 .video-media-l {
@@ -387,11 +374,7 @@
     background-color: #009ed9;
     position: relative;
     z-index: 25;
-<<<<<<< HEAD
     bottom: calc(40%);
-=======
-    bottom: calc(43%);
->>>>>>> 862abef5bf4aaab5bb2f3b9e1f2fd34d39b09eba
     left: 9px;
 }
 
@@ -419,7 +402,6 @@
     display: flex;
 }
 
-<<<<<<< HEAD
 .box-media a {
     border-right: 1px solid;
     position: relative;
@@ -429,14 +411,11 @@
     top: -35%;
 }
 
-=======
->>>>>>> 862abef5bf4aaab5bb2f3b9e1f2fd34d39b09eba
 .box-media img {
     width: 277px;
     height: 184px;
 }
 
-<<<<<<< HEAD
 .border-x {
     height: 256px;
     border-bottom: 1px solid;
@@ -448,11 +427,6 @@
 
 .box-media a:last-child {
     border-right: none;
-=======
-.box-media a {
-    width: 290px;
-    height: auto;
->>>>>>> 862abef5bf4aaab5bb2f3b9e1f2fd34d39b09eba
 }
 
 
@@ -472,11 +446,7 @@
 
 .news-group {
     width: 100%;
-<<<<<<< HEAD
     border-top: 1px solid #009ED9;
-=======
-    border-top: 1px solid #009ed9;
->>>>>>> 862abef5bf4aaab5bb2f3b9e1f2fd34d39b09eba
     position: relative;
 }
 
@@ -488,7 +458,6 @@
     display: inline-block;
     height: auto;
     padding: 10px 20px 0px 20px;
-<<<<<<< HEAD
     border-bottom: 1px solid #89DFFF;
     border-left: 1px solid #89DFFF;
     background: linear-gradient(to right, #bcedff, #f9fdff);
@@ -513,11 +482,6 @@
     right: -3px;
     top: -5px;
     position: absolute;
-=======
-    border-bottom: 1px solid #6ec2e0;
-    border-left: 1px solid #6ec2e0;
-    background: linear-gradient(to right, #bcedff, #f9fdff);
->>>>>>> 862abef5bf4aaab5bb2f3b9e1f2fd34d39b09eba
 }
 
 .title-group h3 {
@@ -525,13 +489,8 @@
 }
 
 .square-mews-grooup-f {
-<<<<<<< HEAD
     width: 8px;
     height: 8px;
-=======
-    width: 13px;
-    height: 13px;
->>>>>>> 862abef5bf4aaab5bb2f3b9e1f2fd34d39b09eba
     background-color: #09A7E2;
     position: relative;
     z-index: 15;
@@ -545,13 +504,8 @@
     position: absolute;
     border: 1px solid #09A7E2;
     z-index: 15;
-<<<<<<< HEAD
     top: 6px;
     left: 6px;
-=======
-    top: 10px;
-    left: 10px;
->>>>>>> 862abef5bf4aaab5bb2f3b9e1f2fd34d39b09eba
     background-color: #c0eeff;
 }
 
