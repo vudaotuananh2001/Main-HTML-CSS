@@ -25,8 +25,8 @@
 }
 
 .offset-square {
-    width: 7px;
-    height: 7px;
+    width: 6px;
+    height: 6px;
     background-color: white;
     position: absolute;
     right: 0;
@@ -103,7 +103,6 @@
 .news-hot-right {
     width: 300px;
     height: auto;
-    border: 1px solid #FFE3CD;
 }
 
 .calendar {
@@ -356,7 +355,6 @@
 
 .video-media a {
     color: white;
-    padding-right: 10px;
 }
 
 .video-media-l {
@@ -376,7 +374,7 @@
     background-color: #009ed9;
     position: relative;
     z-index: 25;
-    bottom: calc(43%);
+    bottom: calc(40%);
     left: 9px;
 }
 
@@ -404,14 +402,31 @@
     display: flex;
 }
 
+.box-media a {
+    border-right: 1px solid;
+    position: relative;
+}
+
+.box-media a .triangles {
+    top: -35%;
+}
+
 .box-media img {
     width: 277px;
     height: 184px;
 }
 
-.box-media a {
-    width: 290px;
-    height: auto;
+.border-x {
+    height: 256px;
+    border-bottom: 1px solid;
+}
+
+.margin-y {
+    margin-right: 10px;
+}
+
+.box-media a:last-child {
+    border-right: none;
 }
 
 
@@ -431,7 +446,7 @@
 
 .news-group {
     width: 100%;
-    border-top: 1px solid #009ed9;
+    border-top: 1px solid #009ED9;
     position: relative;
 }
 
@@ -443,9 +458,30 @@
     display: inline-block;
     height: auto;
     padding: 10px 20px 0px 20px;
-    border-bottom: 1px solid #6ec2e0;
-    border-left: 1px solid #6ec2e0;
+    border-bottom: 1px solid #89DFFF;
+    border-left: 1px solid #89DFFF;
     background: linear-gradient(to right, #bcedff, #f9fdff);
+    position: relative;
+}
+
+.border-r-dimond {
+    width: 2px;
+    height: 17px;
+    background-color: #89DFFF;
+    position: absolute;
+    right: 0;
+    top: 24px;
+}
+
+.squarexx {
+    width: 6px;
+    height: 6px;
+    transform: translateY(-50%) rotate(45deg);
+    background-color: white;
+    border: 1px solid #89DFFF;
+    right: -3px;
+    top: -5px;
+    position: absolute;
 }
 
 .title-group h3 {
@@ -453,8 +489,8 @@
 }
 
 .square-mews-grooup-f {
-    width: 13px;
-    height: 13px;
+    width: 8px;
+    height: 8px;
     background-color: #09A7E2;
     position: relative;
     z-index: 15;
@@ -468,8 +504,8 @@
     position: absolute;
     border: 1px solid #09A7E2;
     z-index: 15;
-    top: 10px;
-    left: 10px;
+    top: 6px;
+    left: 6px;
     background-color: #c0eeff;
 }
 
